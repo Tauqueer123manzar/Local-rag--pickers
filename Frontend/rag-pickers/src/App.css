@@ -1,0 +1,29 @@
+.navbar .nav-link {
+    color: rgb(0, 0, 0);
+  }
+.navbar .nav-link:hover {
+   border-bottom: 1px solid blueviolet;
+   color: rgb(231, 25, 25);
+}
+.home-section {
+    padding: 20px;
+    background-color: rgb(44, 97, 100); /* Ensure the background color is visible */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1); /* Thin shadow */
+    height: 100%;
+  }
+.hero_section{
+    width: 100%;
+}
+@keyframes fadIn{
+   from{
+    opacity: 0.5;
+    transform: translateX(-10px) translateY(-10px);
+   }
+   To{
+    opacity: 1;
+    transform: translateX(10px) translateY(-5px);
+   }
+  }
+  .hero_image{
+    animation: fadIn 1s infinite alternate ease-in-out;
+  }
